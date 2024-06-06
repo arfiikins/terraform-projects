@@ -1,6 +1,7 @@
-provider "aws" {                                            # First is to define the provider
-  region = "us-west-1"                                      # Select a region (N. Cali)
-
+provider "aws" {                                           # First is to define the provider
+  region = "us-west-1"                                     # Select a region (N. Cali)
+  access_key = "input_access_key>"                         # Input access key
+  secret_key = "<input_secret_key>"                        # Input secret key
 }
 
 variable "access_secret_keys" {
