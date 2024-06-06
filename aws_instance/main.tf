@@ -1,7 +1,6 @@
 provider "aws" {                                            # First is to define the provider
   region = "us-west-1"                                      # Select a region (N. Cali)
-  access_key = var.access_secret_keys[0].access                        # Input access key of jana-c1
-  secret_key = var.access_secret_keys[0].secret     # Input secret key of jana-c1
+
 }
 
 variable "access_secret_keys" {
